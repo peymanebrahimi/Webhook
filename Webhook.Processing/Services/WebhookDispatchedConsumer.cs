@@ -1,8 +1,9 @@
 ﻿using MassTransit;
 using Microsoft.EntityFrameworkCore;
-using Webhook.Api.Data;
+using Webhook.Contracts;
+using Webhook.Processing.Data;
 
-namespace Webhook.Api.Services;
+namespace Webhook.Processing.Services;
 
 internal sealed class WebhookDispatchedConsumer(WebhookDbContext dbContext) : IConsumer<WebhookDispatched>
 {

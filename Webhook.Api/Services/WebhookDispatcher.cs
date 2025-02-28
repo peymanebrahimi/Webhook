@@ -1,11 +1,7 @@
 ﻿using MassTransit;
-using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
-using System.Text.Json;
-using System.Threading.Channels;
-using Webhook.Api.Data;
-using Webhook.Api.Models;
 using Webhook.Api.OpenTelemetry;
+using Webhook.Contracts;
 
 namespace Webhook.Api.Services;
 

@@ -1,4 +1,4 @@
-﻿namespace Webhook.Api.Services;
+﻿namespace Webhook.Processing;
 
 public class WebhookPayload
 {
